@@ -1,0 +1,33 @@
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+    color: greenyellow;
+    font-family: sans-serif;
+}
+
+
+.second-li code {
+    color: green;
+}
+
+code {
+    font-family: monospace;
+    color: red;
+}
+
+li {
+    font-family: inherit;
+}
+
+
+li:not(.first-li) {
+    background: black;
+    color: white;
+}
+
+ol li {
+    background: black;
+    color: white;
+}
